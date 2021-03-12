@@ -100,6 +100,9 @@ namespace TiqSoft.ScreenAssistant.Games.ApLeg
                 case WeaponAL.R99:
                     result = new R99(inGameName, 1.5, recognizedName, numOfMods);
                     break;
+                case WeaponAL.Volt:
+                    result = new Volt(inGameName, 1.5, recognizedName, numOfMods);
+                    break;
                 case WeaponAL.Alternator:
                     result = new Alternator(inGameName, 2, recognizedName, numOfMods);
                     break;
